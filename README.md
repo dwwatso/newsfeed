@@ -1,7 +1,8 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This app is designed as a test to develop a rss friendly version of external webcontent.
+
+Initially, it will only run in test mode.
 
 Things you may want to cover:
 
