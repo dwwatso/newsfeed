@@ -1,0 +1,14 @@
+!!! 5
+%html
+	%head
+		%title News Feed Aggregator
+		= stylesheet_link_tag 'application'
+		/= javascript_include_tag 'application'
+		= csrf_meta_tags
+		= auto_discovery_link_tag :rss, pages_path(:format => :rss)
+		
+	%body
+		#logo
+			%a{:href=>pages_path} News Feed Aggregator
+		#main
+			= yield

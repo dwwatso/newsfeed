@@ -1,0 +1,15 @@
+%h1 FNBA News and Updates
+
+%table#articles
+	%thead
+		%th Row Num
+		%th Title
+		%th Description
+		%th More Info
+	%tbody
+		- @items.each_with_index do |item,index|
+			%tr
+				%td= index + 1
+				%td= item.title
+				%td= item.description
+				%td= link_to "Read more", item.link
