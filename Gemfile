@@ -25,7 +25,7 @@ gem 'jbuilder', '~> 2.7'
 # use haml for templates
 gem 'haml'
 # use nokogiri for xpath
-gem 'nokogiri', '~> 1.6', '>= 1.6.8'
+gem 'nokogiri', '~> 1.11'
 # gem 'jquery-rails'
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
